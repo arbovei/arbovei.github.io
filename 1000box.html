@@ -108,7 +108,7 @@
                 'animation' :           // Specify the animation to use.
                 {
                     'type'     : 'spinToStop',
-                    'duration' : 5,     // Duration in seconds.
+                    'duration' : pow,     // Duration in seconds.
                     'spins'    : 8,     // Number of complete spins.
                     'callbackFinished' : alertPrize
                 }
@@ -168,15 +168,15 @@
                     // to rotate with the duration of the animation the quicker the wheel spins.
                     if (wheelPower == 1)
                     {
-                        theWheel.animation.spins = 3;
+                        theWheel.animation.spins = 2;
                     }
                     else if (wheelPower == 2)
                     {
-                        theWheel.animation.spins = 8;
+                        theWheel.animation.spins = 10;
                     }
                     else if (wheelPower == 3)
                     {
-                        theWheel.animation.spins = 15;
+                        theWheel.animation.spins = 22;
                     }
 
                     // Disable the spin button so can't click again while wheel is spinning.
