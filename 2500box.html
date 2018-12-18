@@ -200,6 +200,9 @@
             function alertPrize(indicatedSegment)
             {
                 // Do basic alert of the segment text. You would probably want to do something more interesting with this information.
+              if(indicatedSegment.text == "Grand Prize")
+                alert ("You Won the GRAND PRIZE! Congratulations!");
+                else
                 alert("You have won " + indicatedSegment.text + " worth of ARBO Prizes! You can choose any items from your box that add up to this total! Congratulations!");
             }
         </script>
