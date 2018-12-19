@@ -2,9 +2,11 @@
 <html>
     <head>
         
- <link rel="stylesheet" type="text/css" href="fireworks.js-master/style/fireworks.css" media="screen" />
-
-<script type="text/javascript" src="fireworks.js-master/script/fireworks.js"></script>
+   <script type="text/javascript" src="../JSparkle.js"></script>
+    <script type="text/javascript" src="Fireworks.js"></script>
+    <script type="text/javascript" src="../Lib/canvasLib.js"></script>
+       
+    <script type="text/javascript" src="FireworksDemo.js"></script>
         
         
         <title>HTML5 Canvas Winning Wheel</title>
@@ -206,7 +208,7 @@
             function alertPrize(indicatedSegment)
             {
                 // Do basic alert of the segment text. You would probably want to do something more interesting with this information.
-                createFirework(66,178,2,4);
+               
                 if(indicatedSegment.text == "Grand Prize")
                 alert ("You Won the GRAND PRIZE! Congratulations!");
                 else
