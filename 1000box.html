@@ -2,12 +2,7 @@
 <html>
     <head>
         
-<script type="text/javascript" src="http://gamealchemist.co.nf/Particles/JSparkle.js"></script>
-    <script type="text/javascript" src="http://gamealchemist.co.nf/Particles/Fireworks/Fireworks.js"></script>
-    <script type="text/javascript" src="http://gamealchemist.co.nf/Particles/Lib/canvasLib.js"></script>
-     <script type="text/javascript" src="http://gamealchemist.co.nf/Particles/Lib/fadingText.js"></script>   
-    <script type="text/javascript" src="http://gamealchemist.co.nf/Particles/Fireworks/FireworksDemo.js"></script>
-       
+
   
         
         
@@ -17,6 +12,7 @@
         <script type="text/javascript" src="TweenMax.min.js"></script>
     </head>
     <body>
+        <section></section>
         <div align="center">
                 <img src="/IMG-7218.PNG" width="220" height="220"> 
             <br />
@@ -57,7 +53,8 @@
             </table>
         </div>
         <script>
-
+    src="https://code.jquery.com/jquery-3.3.1.js"
+ 
 
             var p1 = "$1000";
             var p2 = "$2000";
@@ -211,6 +208,17 @@
             {
                 // Do basic alert of the segment text. You would probably want to do something more interesting with this information.
              
+                $('section').fireworks({
+2
+  sound: false, // sound effect
+3
+  opacity: 0.9,
+4
+  width: '100%',
+5
+  height: '100%'
+6
+});
 
    
                 if(indicatedSegment.text == "Grand Prize")
